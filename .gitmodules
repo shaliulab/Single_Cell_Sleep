@@ -1,0 +1,3 @@
+[submodule "SleepML"]
+	path = SleepML
+	url = git@github.com:shaliulab/SleepML
