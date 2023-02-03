@@ -8,6 +8,6 @@ See the [SleepML repository](https://github.com/shaliulab/SleepML/blob/master/RE
 
 **To replicate the results of the template matching:**
 
-See the [sleep drive template matching]()
+See the [sleep drive template matching](https://github.com/shaliulab/Single_Cell_Sleep/blob/master/SleepDriveTemplateMatching/sleep_drive.ipynb)
 
 
