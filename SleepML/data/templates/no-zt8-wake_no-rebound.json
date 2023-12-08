@@ -1,0 +1,11 @@
+{"target": "Condition", "template": {
+    "ZT 8 gab": 5,
+    "ZT 20 sleep": 2.0,
+    "ZT 20 midline cross": 2.0,
+    "ZT 14 sleep": 0.5,
+    "ZT 14 SD": -0.5,
+    "ZT 20 sleep deprivation": -2,
+    "ZT 2 sleep drive 14h SD": -3.5,
+    "ZT 8 20h SD": -5
+    }
+}

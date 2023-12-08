@@ -1,0 +1,11 @@
+{
+    "target": "Condition", "template": {
+     "ZT 8 gab": 0.0,
+ "ZT 20 sleep": 0.16666666666666666,
+ "ZT 14 sleep": 0.3333333333333333,
+ "ZT 14 SD": 0.5,
+ "ZT 20 sleep deprivation": 0.6666666666666666,
+ "ZT 2 sleep drive 14h SD": 0.8333333333333333,
+ "ZT 8 20h SD": 1.0
+    }
+}

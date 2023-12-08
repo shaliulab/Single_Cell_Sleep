@@ -1,0 +1,7 @@
+{"target": "Condition", "template": {
+    "ZT 20 sleep": "Sleep",
+    "ZT 20 sleep deprivation": "Wake",
+    "ZT 8 wake": "Wake",
+    "ZT 8 wake stimulation": "Wake"
+    }
+}

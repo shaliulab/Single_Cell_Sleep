@@ -1,0 +1,9 @@
+build/
+dist/
+sleep_models.egg-info/
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+tests/umap/
+old_tests/
+tests/

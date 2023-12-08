@@ -1,0 +1,6 @@
+cluster,louvain_res,idx
+CXG,louvain_res2.0,76
+ALG,louvain_res8.0,19
+PG,louvain_res4.0,81
+EG_1,louvain_res4.0,28
+EG_2,louvain_res8.0,64

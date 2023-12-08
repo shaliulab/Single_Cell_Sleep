@@ -1,0 +1,8 @@
+ZT 8 gab: "sleep"
+ZT 20 sleep: "sleep"
+ZT 20 midline cross: "sleep"
+ZT 14 sleep: "sleep"
+ZT 14 SD: "wake"
+ZT 20 sleep deprivation: "wake"
+ZT 2 sleep drive 14h SD: "wake"
+ZT 8 20h SD: "wake"

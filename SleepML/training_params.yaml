@@ -1,0 +1,13 @@
+learning_rate: 0.001
+batch_size: 32
+l2: 0.002
+patience: 50
+epochs: 2000
+optimizer: "SGD"
+loss_function: "CrossEntropyLoss"
+n_neurons: [25, 5]
+dropouts: []
+conditions:
+  SD: []
+  wake: []
+  sleep: []

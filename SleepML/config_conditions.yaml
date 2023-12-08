@@ -1,0 +1,68 @@
+# Which background of cell types to work with
+background:
+  KC:
+  glia:
+
+# Marker gene filtering settings
+user_defined_log2FC_threshold:
+  # genes above this threshold will not be considerd for the analysis
+  KC:
+    1.0
+  glia:
+    1.0
+  peptides:
+    3.0
+log2FC_thresholds:
+  # A separate UMAP will be computed on the result of removing genes
+  # with an abs log2FC higher than this
+  KC:
+    [8.0, 7.0, 6.0, 5.0, 4.0, 3.0, 2.5, 2.0, 1.5, 1.0, 0.5, 0.0]
+  glia:
+    [9.99, 9.0, 8.0, 7.0, 6.5, 6.0, 5.5, 5.0, 4.5, 4.0, 3.5, 3.0, 2.5, 2.0, 1.5, 1.0, 0.5, 0.0]
+max_clusters:
+  # if a marker is gene is shared by this or more cell types
+  # of the background, it is still considered for the analysis
+  # because it is not a marker anymore within the background
+  KC:
+    3
+  glia:
+    5
+
+# Dataset generation settings
+raw: True 
+exclude_genes_file: None
+batch_genes_file: "batch_effects.xlsx"
+highly_variable_genes: False
+h5ad_input: "h5ad/Preloom/All_Combined_No_ZT2_Wake.h5ad"
+
+# Model settings
+arch: ["EBM", "RF", "NeuralNetwork"] # this is the selected model in this run.
+# Implemented models:
+#    * EBM
+#    * Neural Network
+#    * KNN ?
+#    * RF ?
+
+# Reproducibility settigs
+seeds: [1000, 2000, 3000, 4000]
+
+# Execution settings
+ncores: -2
+
+# Plotting settings
+plotting_kwargs:
+  barlimits: [50, 75]
+  dpi: 600
+  rotation: [90, 0]
+
+extensions: ["png", "svg"]
+cache: False
+data_dir: "data/"
+marker_database: "markers/"
+temp_data_dir: "2022-05-05_data_conditions/"
+results_dir: "2022--05-05_results_conditions/"
+template: "simple_condition_mapping.yaml"
+DR_algorithm: ["TruncatedSVD", "UMAP", "TSNE"]
+target: ["Condition"]
+shuffles: 1
+pinned_columns: ["Treatment", "Condition"]

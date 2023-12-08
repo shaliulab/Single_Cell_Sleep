@@ -1,0 +1,14 @@
+{"target": "Condition", "template": {
+    "ZT 8 gab": 1.0,
+    "ZT 20 sleep": 2.0,
+    "ZT 20 midline cross": 2.0,
+    "ZT 2 rebound 12h SD": 3.0,
+    "ZT 14 sleep": 4.0,
+    "ZT 14 SD": 5.0,
+    "ZT 8 wake": 6.0,
+    "ZT 8 wake stimulation": 6.0,
+    "ZT 20 sleep deprivation": 7.0,
+    "ZT 2 sleep drive 14h SD": 8.0,
+    "ZT 8 20h SD": 9.0
+    }
+}
