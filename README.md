@@ -8,7 +8,7 @@ This repository contains code related to the following publication:
 
 Code for the EBM classifier (Figure 4 and Extended Data Figure 6): [SleepML repository](https://github.com/shaliulab/SleepML/blob/master/README.md)
 
-Code for the template matching method (Figures 5-8): [sleep drive template matching](https://github.com/shaliulab/Single_Cell_Sleep/blob/master/sleep_drive/)
+Code for the template matching method (Figures 5-8): [sleep drive template matching](https://github.com/shaliulab/Single_Cell_Sleep/tree/main/sleep_drive)
 
 
 Packages used for analysis of...
