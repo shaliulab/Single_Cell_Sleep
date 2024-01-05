@@ -10,7 +10,7 @@ Code for the EBM classifier (Figure 4 and Extended Data Figure 6): [SleepML repo
 
 Code for the template matching method (Figures 5-8): [sleep drive template matching](https://github.com/shaliulab/Single_Cell_Sleep/tree/main/sleep_drive)
 
-Repository for building the shiny app: [shiny_sleep]((https://github.com/joanadopp/shiny_sleep)) <br>
+Repository for building the shiny app: [shiny_sleep](https://github.com/joanadopp/shiny_sleep)
 
 
 Packages used for analysis of...
